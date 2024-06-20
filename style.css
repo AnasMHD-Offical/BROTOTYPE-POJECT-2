@@ -54,6 +54,7 @@ body{
     padding: 10px;
     width: 189px;
     height: 22px;
+    cursor: pointer;
 }
 .nav-list{
     display: flex;
@@ -220,6 +221,7 @@ body{
     justify-content: center;
     background: #e04f1b;
     border-radius: 2rem;
+    cursor: pointer;
 
 }
 .btn p{
@@ -232,7 +234,4 @@ body{
     width: 20px;
     background: #b23712;
     border-radius: 15px;
-}
-.arrow{
-    
 }
