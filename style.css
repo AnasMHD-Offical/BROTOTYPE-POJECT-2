@@ -235,3 +235,141 @@ body{
     background: #b23712;
     border-radius: 15px;
 }
+.product{
+    width: 100%;
+    height: 140vh;
+    background: url(Assets/background-2.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+}
+.product-div-1{
+    margin-top: 0px;
+    text-align: center;
+}
+.product-div-1 h1{
+    color: var(--bg-color);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 90px;
+}
+.product-div-1 p{
+    color: #fffdfae6;
+    line-height: 25px;
+    font-size: 19px;
+}
+.product-div-2{
+    display: grid;
+    grid:auto/auto auto auto;
+    gap: 5rem;
+}
+.product-describe{
+    color: var(--bg-color);
+
+}
+.product-describe h3{
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 300;
+}
+.product-describe p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+.compare{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:; */
+    align-items: center;
+    width: 100%;
+    background: var(--secondary-font-color);
+    color: #d3d3d3;
+}
+.compare-product{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.compare-product-title h2{
+    margin-top: 120px;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+}
+.compare-product-many-cards{
+    float: left;
+    width: 25%;
+    height: 660px;
+    padding: 25px;
+    /* border: 1px solid white; */
+}
+.compare-product-many{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+ 
+}
+.compare-product-many-content{
+    margin-bottom: 40px;
+}
+.compare-product-many-content .company-img{
+    width :30px;
+}
+.compare-product-many-content .company-h3-1{
+    line-height: 40px;
+}
+.compare-product-many-content .company-h3-2{
+    line-height: 38px;
+}
+.compare-product-many-content .company-h3-3{
+    line-height: 40px;
+}
+
+.compare-product-many-content-text{
+  
+    border-top: .5px solid var(--third-font-color);
+    border-bottom: .5px solid var(--third-font-color);
+    padding: 10px;
+}
+.fake{
+    color: #0f0e0d;
+    line-height: 50px;
+}
+.company-2{  
+    width: 100px;
+    height: 30px;
+}
+.company-3{
+    width: 30px;
+}
+.company-fake{
+    font-size: 14px;
+    color: #d3d3d3a4;
+    padding: 11px;
+}
+.cards-main{
+    background: #1b1b1c;
+    border-radius: 1rem;
+    padding: 38px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.content-main{
+    color:#fa671e;
+    font-size: 16px;
+    font-weight: 500;
+}
+.tick-1{
+    padding: 4px;
+}
+.tick{
+    width: 25px;
+}
