@@ -35,6 +35,7 @@ body{
     height: 100vh;
     background: url(Assets/background.webp);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     /* display: flex;
     flex-direction: column; */
@@ -243,7 +244,8 @@ body{
     height: 140vh;
     background: url(Assets/background-2.webp);
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
